@@ -1,0 +1,80 @@
+
+.p{
+  font-size:16.5px;
+  font-family:'harriet', 'Playfair Display';
+  /*font-family: "chaparral-pro-caption";*/
+  font-weight: 300;
+  line-height:1.5em;
+  margin:auto;
+}
+.ser{
+  font-family:'harriet', 'Playfair Display';
+}
+.san{
+    font-family:'akkurat', 'Lato';
+}
+
+
+
+.xl{
+  font-size:30px;
+  line-height:1.05em;
+}
+.lg{
+  font-size:30px;
+  line-height:1.05em;
+}
+.md{
+  font-size:20px;
+  line-height:1.32em;
+}
+.sm{
+  font-size:16px;
+  line-height:1.3em;
+}
+.xs{
+  font-size:12px;
+}
+
+
+
+.black{
+  font-weight: 800;
+}
+.reg{
+  font-weight:300;
+}
+.light{
+  font-weight:100;
+}
+.center{
+  text-align:center;
+}
+.italic{
+  font-style: italic;
+}
+.grey{
+  font-weight:800;
+  color:rgba(0,0,0,.35);
+}
+a, a:active, a:visited{
+  color:black;
+  text-decoration:none;
+
+}
+
+/*this is for between 480 and 770 tablet*/
+@media screen and (min-width: 510px) and (max-width: 768px) {
+ 
+
+}
+
+
+
+
+/*this is only for iphone*/
+@media only screen and (max-width: 510px) {
+
+
+}
+

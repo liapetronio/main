@@ -1,0 +1,131 @@
+body{
+	padding:0px;
+	margin:0px;
+  background-color:#e2e2e2;
+
+}
+
+.main-cont{
+  width:92%;
+  margin:auto;
+  margin-top:50px;
+  margin-bottom:50px;
+
+}
+
+.visible{
+  display:block;
+}.invisible{
+  display:none;
+}
+
+.info-box{
+  width:35%;
+}
+.image-box{
+  width:60%;
+}
+
+
+.header{
+  margin-bottom:50px;
+}
+#liapetronio{
+  margin-bottom:25px;
+}
+
+.thumb-container{
+  width:30%;
+  min-width:300px;
+  display:inline-block;
+  vertical-align:top;
+  margin-bottom:30px;
+}
+.thumb-container:hover{
+  opacity:.7;
+  cursor:pointer;
+}
+.thumb-img{
+  width:92%;
+  margin:auto;
+}
+.thumb-caption{
+  width:92%;
+  margin:auto;
+}
+.image-box{
+width:60%;
+
+}
+#image-container{
+  width:90%;
+  margin:auto;
+}
+.proj-images{
+  width:100%;
+  margin-bottom:20px;
+}
+
+.inline-block{
+  display:inline-block;
+  vertical-align:top;
+}
+.title{
+  margin-bottom:15px;
+}
+
+#projects-btn:hover{
+  opacity:.6;
+}
+#link, #award{
+  margin-top:25px;
+  margin-bottom:25px;
+}
+.site-link{
+border:.5px solid black;
+padding:7px;
+border-radius:7px;
+margin-top:15px;
+}
+
+#link:hover{
+  opacity:.6;
+}
+/*this is for between 480 and 770 tablet*/
+@media screen and (min-width: 450px) and (max-width: 768px) {
+
+  .cont{
+    width:92.25%;
+    margin:auto;
+    margin-top:60px;
+  }
+
+
+}
+/*this is only for iphone*/
+@media only screen and (max-width: 449px) {
+
+  .thumb-container{
+    width:100%;
+    min-width:300px;
+    display:inline-block;
+    vertical-align:top;
+    margin-bottom:30px;
+  }
+
+  .info-box{
+    width:100%;
+    margin:auto;
+    margin-bottom:25px;
+  }
+  .image-box{
+    width:100%;
+  }
+
+  .inline-block{
+    display:block;
+
+  }
+
+}
+

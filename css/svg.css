@@ -1,0 +1,28 @@
+.axis-line, .axis path, .axis line{
+  stroke:rgb(120,120,120);
+  fill:none;
+  stroke-width:.7px;
+  opacity:.6;
+}
+
+.domain{
+  display:none;
+}
+
+.line{
+  stroke-width:2px;
+  opacity:.8;
+}
+
+.pointer-line{
+  stroke-width:.5px;
+  stroke:rgb(50,50,50);
+}
+
+.solid-line{
+  stroke:black; 
+}
+
+.no-pointer{
+  pointer-events: none;
+}
